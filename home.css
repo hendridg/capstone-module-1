@@ -29,6 +29,8 @@ h1 {
   line-height: 1em;
   letter-spacing: 2px;
   background: url(./assets/Snapshoot_Portfolio.svg);
+  background-color: lightgrey;
+  background-blend-mode: multiply;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
