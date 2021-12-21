@@ -161,7 +161,7 @@ main {
   padding: 2em 2em;
   margin: 2em;
   background: var(--accent-color);
-  color: var(--secondary-color);
+  color: white;
   font-size: 1.1em;
   font-weight: bold;
 }
@@ -218,8 +218,8 @@ main {
 .speaker-card-position p {
   color: var(--accent-color);
   font-size: 0.8em;
-  font-weight: 700;
   font-style: italic;
+  font-weight: bold;
   letter-spacing: 1px;
   margin-bottom: 0;
   margin-top: 0.5em;
