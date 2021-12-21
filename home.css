@@ -9,6 +9,7 @@ body {
   --primary-color: #272a31;
   --secondary-color: #d3d3d3;
   --accent-color: #ec4542;
+  --shadow: 0 2px 10px -1px rgba(0, 0, 0, 0.8);
 
   font-size: 1em;
 }
@@ -29,7 +30,7 @@ h1 {
   line-height: 1em;
   letter-spacing: 2px;
   background: url(./assets/Snapshoot_Portfolio.svg);
-  background-color: lightgrey;
+  background-color: lightpink;
   background-blend-mode: multiply;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -109,9 +110,21 @@ main {
 }
 
 .main-title {
+  margin-bottom: 1em;
   font-size: 1.5em;
   font-weight: bold;
   text-align: center;
+}
+
+.main-title::after {
+  content: '';
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  bottom: 10px;
+  width: 2.3em;
+  height: 1px;
+  background: var(--accent-color);
 }
 
 .main-program-container {
@@ -159,6 +172,17 @@ main {
   font-size: 1.5em;
   font-weight: 600;
   text-align: center;
+}
+
+.speaker-title::after {
+  content: '';
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  bottom: 10px;
+  width: 1.5em;
+  height: 1px;
+  background: var(--accent-color);
 }
 
 .speaker-card {

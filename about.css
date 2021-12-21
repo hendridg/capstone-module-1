@@ -130,9 +130,20 @@ main {
   text-align: center;
 }
 
+.main-title::after {
+  content: '';
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  top: 0.5em;
+  width: 1em;
+  height: 1px;
+  background: var(--accent-color);
+}
+
 .main-paragraph {
   padding: 0;
-  margin: 0 auto;
+  margin: 0.5em auto;
   width: 80%;
   font-size: 14px;
   text-align: center;
@@ -165,9 +176,20 @@ main {
   margin-bottom: 0;
 }
 
+.past-events-title::after {
+  content: '';
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  top: 0.5em;
+  width: 1em;
+  height: 1px;
+  background: var(--accent-color);
+}
+
 .past-events-description {
   padding: 0;
-  margin: 0 auto;
+  margin: 0.5em auto;
   width: 80%;
   font-size: 14px;
   text-align: center;
@@ -184,7 +206,7 @@ main {
   justify-content: center;
   align-items: center;
   height: 250px;
-  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 .past-event-card-2 {
@@ -232,6 +254,17 @@ main {
   align-self: center;
   text-align: center;
   margin-top: 1em;
+}
+
+.partner-title::after {
+  content: '';
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  bottom: 0;
+  width: 2.5em;
+  height: 1px;
+  background: var(--accent-color);
 }
 
 .partner-group {
