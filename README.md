@@ -5,7 +5,7 @@ Portfolio to Microverse course
 
 > Capstone Projects using HTML, CSS, JavaScript
 
-### Check out in this [link](https://hendridg.github.io/portfolio-microverse/)
+### Check out in this [link](https://hendridg.github.io/capstone-module-1/)
 
 ![screenshot](./assets/screenshots/screenshot_1.png)
 ![screenshot](./assets/screenshots/screenshot_2.png)
