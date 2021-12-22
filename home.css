@@ -110,10 +110,71 @@ a {
 .menu-btn {
   background: none;
   border: none;
+  cursor: pointer;
+}
+
+.btn-close-nav {
+  background: none;
+}
+
+.btn-close-nav > img {
+  width: 3em;
 }
 
 .menu-btn > img {
   width: 2.5em;
+}
+
+.header-nav-mobile {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: gray;
+  color: #3a4a42;
+  opacity: 0.95;
+  text-align: center;
+}
+
+.menu-btn,
+.header-nav-mobile > button {
+  background: none;
+}
+
+.header-nav-mobile > button {
+  margin: 0.5em 0.5em;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.header-nav-mobile > img {
+  width: 2em;
+}
+
+.header-nav-mobile > ul > li {
+  margin-top: 40px;
+  font-size: 24px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.header-nav-mobile > ul > li > a {
+  font-size: 1em;
+  font-weight: 600;
+  color: var(--accent-color);
+  cursor: pointer;
+}
+
+.menu-btn.hidden {
+  display: none;
+}
+
+.header-nav-mobile.hidden {
+  display: none;
 }
 
 .header-nav {
