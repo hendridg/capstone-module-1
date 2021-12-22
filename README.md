@@ -10,10 +10,10 @@ Portfolio to Microverse course
 ![screenshot](./assets/screenshots/screenshot_1.png)
 ![screenshot](./assets/screenshots/screenshot_2.png)
 ![screenshot](./assets/screenshots/screenshot_3.png)
-![screenshot](./assets/screenshots/screenshot_4.png)
-![screenshot](./assets/screenshots/screenshot_5.png)
-![screenshot](./assets/screenshots/screenshot_6.png)
-![screenshot](./assets/screenshots/screenshot_7.png)
+
+## Acknowledgements
+
+Credit to Cindy Shin, the author of the original design, `Creative Commons License`
 
 ## Built With
 
