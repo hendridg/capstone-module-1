@@ -338,6 +338,10 @@ main {
   background: var(--accent-color);
 }
 
+.main-paragraph-desktop {
+  display: none;
+}
+
 .main-paragraph {
   padding: 0;
   margin: 0.5em auto;
@@ -362,6 +366,7 @@ main {
   }
 
   .main-paragraph-desktop {
+    display: flex;
     margin: 0 auto;
     font-size: 0.8em;
     text-align: center;
