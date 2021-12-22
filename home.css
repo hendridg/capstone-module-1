@@ -592,7 +592,7 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 3em;
+    padding: 3em;
   }
 
   .footer-logo {
