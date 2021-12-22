@@ -95,7 +95,7 @@ const dataSpeakers = [
 
 const cardSpeaker = (index) => `
   <div class="speaker-card-img">
-      <img src=${dataSpeakers[index].url} alt="image of speaker Yoachi">
+      <img src=${dataSpeakers[index].url} alt="image of speaker ${dataSpeakers[index].name}">
   </div>
   <div class="speaker-card-content">
       <div class="speaker-card-name">
